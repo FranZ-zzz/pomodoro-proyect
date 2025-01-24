@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lexend Giga', sans-serif; /* de google fonts*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fafcbc;
+}
+
+/* Contenedor del pomodoro */
+.pomodoro-container {
+    text-align: center;
+    background: #ecffea;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #fd4a3a;
+    margin-bottom: 20px;
+}
+
+/* Temporizador */
+#timer {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* contenedor de los botones*/
+.status-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.status-container i {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+#status {
+    font-size: 1.2rem;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #ff6f61;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 1;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button i {
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #ff5748;
+}
+
+button:active {
+    background: #ff4130;
+    transform: scale(0.95);
+}
+
+/* Botón pequeño */
+.small-button {
+    flex: 0.5;
+    background: #0d7c6a;
+}
+
+.small-button:hover {
+    background: #2ea3e6;
+}
+
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
