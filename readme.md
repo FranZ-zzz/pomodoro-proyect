@@ -10,6 +10,14 @@ Para instalar el proyecto, simplemente clone el repositorio y abra el archivo `i
 git clone https://github.com/FranZ-zzz/pomodoro-proyect.git
 ```
 
+//tambien puede instalar "fontawesome" desde la terminal si no le funcionan los iconos y si está en un entorno de Node.js
+
+```bash
+npm install @fortawesome/fontawesome-free
+```
+
+
+
 ## Uso
 1. Inicie el temporizador haciendo clic en el botón de inicio.
 2. Trabaje en su tarea durante 25 minutos.
